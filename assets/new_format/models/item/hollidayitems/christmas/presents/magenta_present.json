@@ -1,6 +1,0 @@
-{
-  "parent": "new_format:item/hollidayitems/christmas/presents/./magenta_present2_source",
-  "textures": {
-    "layer0": "new_format:item/hollidayitems/christmas/presents/magenta_present"
-  }
-}

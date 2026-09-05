@@ -1,9 +1,0 @@
-
-{
-    "parent": "minecraft:item/generated",
-    "textures":
-    {
-        "layer1": "lw:item/phone/smartphone",
-        "layer0": "lw:item/phone/smartphone_overlay"
-    }
-}

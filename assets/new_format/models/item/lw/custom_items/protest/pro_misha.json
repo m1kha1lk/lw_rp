@@ -1,6 +1,0 @@
-{
-  "parent": "new_format:item/lw/custom_items/protest/poster_on_stick_source",
-  "textures": {
-    "layer0": "new_format:item/lw/custom_items/protest/pro_misha"
-  }
-}

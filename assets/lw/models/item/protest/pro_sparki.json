@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "new_format:item/lw/custom_items/protest/pro_sparki"
-  }
-}

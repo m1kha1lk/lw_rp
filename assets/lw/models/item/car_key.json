@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "lw:item/key",
-        "layer1": "lw:item/key_overlay"
-    }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/bow",
-  "textures": {
-    "layer0": "new_format:item/bvb/armor/cobalt/cobalt_bow_pulling_0"
-  }
-}

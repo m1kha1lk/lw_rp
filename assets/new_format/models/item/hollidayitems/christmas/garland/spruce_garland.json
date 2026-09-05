@@ -1,6 +1,0 @@
-{
-  "parent": "new_format:item/hollidayitems/christmas/garland/./garland_source",
-  "textures": {
-    "layer0": "new_format:item/hollidayitems/christmas/garland/spruce_garland"
-  }
-}

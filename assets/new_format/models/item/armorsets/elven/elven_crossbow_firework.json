@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/crossbow",
-  "textures": {
-    "layer0": "new_format:item/armorsets/elven/elven_crossbow_firework"
-  }
-}

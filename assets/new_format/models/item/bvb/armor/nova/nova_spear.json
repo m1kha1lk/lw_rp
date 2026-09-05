@@ -1,6 +1,0 @@
-{
-  "parent": "new_format:item/bvb/armor/spear",
-  "textures": {
-    "layer0": "new_format:item/bvb/armor/nova/nova_spear"
-  }
-}

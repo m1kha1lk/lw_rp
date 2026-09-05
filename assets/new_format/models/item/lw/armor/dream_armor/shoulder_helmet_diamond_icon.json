@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "new_format:item/lw/armor/dream_armor/shoulder_helmet_diamond_icon"
-  }
-}

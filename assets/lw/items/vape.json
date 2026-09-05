@@ -1,0 +1,12 @@
+{
+"model": {
+    "type": "minecraft:model",
+    "model": "lw:item/vape_model",
+    "tints": [
+        {
+        "type": "minecraft:dye",
+        "default": 255
+        }
+    ]
+        }
+}

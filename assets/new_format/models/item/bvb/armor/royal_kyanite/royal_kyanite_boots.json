@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "new_format:item/bvb/armor/royal_kyanite/royal_kyanite_boots"
-  }
-}

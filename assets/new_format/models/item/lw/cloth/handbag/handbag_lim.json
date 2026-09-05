@@ -1,6 +1,0 @@
-{
-  "parent": "new_format:item/lw/cloth/handbag/handbag_source",
-  "textures": {
-    "layer0": "new_format:item/lw/cloth/handbag/handbag_lim"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "lw:item/sweater_icon",
-	"layer1": "lw:item/sweater_icon_overlay"
-  }
-}

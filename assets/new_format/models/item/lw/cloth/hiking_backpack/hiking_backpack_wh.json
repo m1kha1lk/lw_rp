@@ -1,6 +1,0 @@
-{
-  "parent": "new_format:item/lw/cloth/hiking_backpack/hiking_backpack_source",
-  "textures": {
-    "layer0": "new_format:item/lw/cloth/hiking_backpack/hiking_backpack_wh"
-  }
-}
