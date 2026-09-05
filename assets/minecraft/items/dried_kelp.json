@@ -1,0 +1,67 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Black Caviar",
+          "Чёрная икра"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/dried_kelp/black_caviar"
+        }
+      },
+      {
+        "when": [
+          "Red Caviar",
+          "Красная икра"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/dried_kelp/red_caviar"
+        }
+      },
+      {
+        "when": [
+          "Sunflower Seeds",
+          "Семечки подсолнечника"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/dried_kelp/sunflower_seeds"
+        }
+      },
+      {
+        "when": [
+          "Pumpkin Seeds",
+          "Тыквенные семечки"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/dried_kelp/pumpkin_seeds"
+        }
+      },
+      {
+        "when": "Ролл из ламинарий",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/roll/kelp_roll/kelp_roll"
+        }
+      },
+      {
+        "when": "Кусочек ролла из ламинарий",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/roll/kelp_roll_slice/kelp_roll_slice"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/dried_kelp"
+    }
+  }
+}

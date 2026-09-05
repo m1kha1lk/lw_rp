@@ -1,0 +1,6 @@
+{
+  "parent": "new_format:item/hollidayitems/christmas/wreath/./wreath_source",
+  "textures": {
+    "layer0": "new_format:item/hollidayitems/christmas/wreath/spruce"
+  }
+}

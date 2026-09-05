@@ -1,0 +1,431 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Дружба",
+          "Friendship"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/8_0/furniture/paintings/mascott2"
+        }
+      },
+      {
+        "when": [
+          "Вождь следит за тобой!",
+          "Leader Is Watching You!"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/8_0/furniture/paintings/andrej"
+        }
+      },
+      {
+        "when": [
+          "Настенный ковёр",
+          "Wall Carpet"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/8_0/furniture/paintings/carpet"
+        }
+      },
+      {
+        "when": [
+          "Гипер и Интроверт",
+          "Hyper and Introvert"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/8_0/furniture/paintings/hyper"
+        }
+      },
+      {
+        "when": [
+          "Дэви Джонс нашего времени",
+          "Modern Davy Jones"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/8_0/furniture/paintings/jones"
+        }
+      },
+      {
+        "when": [
+          "Наполеон",
+          "Napoleon"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/8_0/furniture/paintings/napoleonpaint"
+        }
+      },
+      {
+        "when": "Картина рая",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/aether"
+        }
+      },
+      {
+        "when": "Картина разъяренный визер",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/angrywither"
+        }
+      },
+      {
+        "when": "Картина аксолотль",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/axolotle"
+        }
+      },
+      {
+        "when": "Картина блоки",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/blocks"
+        }
+      },
+      {
+        "when": "Картина Кошка",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/cat"
+        }
+      },
+      {
+        "when": "Картина Кот торговец",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/cattrader"
+        }
+      },
+      {
+        "when": "Картина Пещера",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/caves"
+        }
+      },
+      {
+        "when": "Картина Кораллов",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/corals"
+        }
+      },
+      {
+        "when": "Картина Корова",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/cow"
+        }
+      },
+      {
+        "when": "Картина кристаллов",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/crystals"
+        }
+      },
+      {
+        "when": "Картина Закат",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/dawn"
+        }
+      },
+      {
+        "when": "Картина пустыня",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/desert"
+        }
+      },
+      {
+        "when": "Картина собакен",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/dog"
+        }
+      },
+      {
+        "when": "Картина Утки",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/duck"
+        }
+      },
+      {
+        "when": "Картина древнего стража",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/elderguardian"
+        }
+      },
+      {
+        "when": "Картина Полет на Элтирах",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/elytra"
+        }
+      },
+      {
+        "when": "Картина стол зачарования",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/enchantmenttable"
+        }
+      },
+      {
+        "when": "Картина Город Энда",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/endcity"
+        }
+      },
+      {
+        "when": "Картина эндермен",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/enderman"
+        }
+      },
+      {
+        "when": "Картина голова эндермена",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/endermanhead"
+        }
+      },
+      {
+        "when": "Картина портал энда",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/endportal"
+        }
+      },
+      {
+        "when": "Картина Поле",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/field"
+        }
+      },
+      {
+        "when": "Картина светящиеся ягоды",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/glowberrys"
+        }
+      },
+      {
+        "when": "Картина Голема",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/golem"
+        }
+      },
+      {
+        "when": "Картина Атака Голема",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/golemattack"
+        }
+      },
+      {
+        "when": "Картина Стража",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/guardian"
+        }
+      },
+      {
+        "when": "Картина Джунглей",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/jungle"
+        }
+      },
+      {
+        "when": "Картина листвы",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/leaves"
+        }
+      },
+      {
+        "when": "Картина особняка",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/manshion"
+        }
+      },
+      {
+        "when": "Картина михаил",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/mihail"
+        }
+      },
+      {
+        "when": "Картина МууБлума",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/moobloom"
+        }
+      },
+      {
+        "when": "Картина Ада",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/nether"
+        }
+      },
+      {
+        "when": "Картина Ночи",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/night"
+        }
+      },
+      {
+        "when": "Картина ностальгия",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/nostalgia"
+        }
+      },
+      {
+        "when": "Картина кирка и факел",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/pickaxe"
+        }
+      },
+      {
+        "when": "Картина Пиглина",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/piglin"
+        }
+      },
+      {
+        "when": "Картина портал",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/portal"
+        }
+      },
+      {
+        "when": "Картина Зелье",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/potion"
+        }
+      },
+      {
+        "when": "Картина Красный Куст",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/redbush"
+        }
+      },
+      {
+        "when": "Картина сакура",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/sakura"
+        }
+      },
+      {
+        "when": "Картина Овечка",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/sheep"
+        }
+      },
+      {
+        "when": "Картина скелет",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/skeleton"
+        }
+      },
+      {
+        "when": "Картина Город",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/skyscapers"
+        }
+      },
+      {
+        "when": "Картина слайма",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/slime"
+        }
+      },
+      {
+        "when": "Картина снеговик",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/snowman"
+        }
+      },
+      {
+        "when": "Картина Рассвет",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/sunrise"
+        }
+      },
+      {
+        "when": "Картина Башня",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/tower"
+        }
+      },
+      {
+        "when": "Картина Трио-Визер",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/triowither"
+        }
+      },
+      {
+        "when": "Картина житель и другие",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/villagers"
+        }
+      },
+      {
+        "when": "Картина визер",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/wither"
+        }
+      },
+      {
+        "when": "Картина зомби",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/paintings/zombie"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/painting"
+    }
+  }
+}

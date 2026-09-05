@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/black_dye"
+    },
+    "cases": [
+      {
+        "when": "infinity",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/other/deco/graffiti/infinity"
+        }
+      },
+      {
+        "when": "Три баллончика",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/other/deco/spray/3spraypaint"
+        }
+      },
+      {
+        "when": "5 spray paint",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/other/deco/spray/5spraypaint"
+        }
+      },
+      {
+        "when": "Чёрный баллончик",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/other/deco/spray/blackspraypaint"
+        }
+      }
+    ]
+  }
+}

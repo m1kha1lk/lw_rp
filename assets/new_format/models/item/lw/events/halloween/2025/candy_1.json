@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "new_format:item/lw/events/halloween/2025/candy_1"
+  }
+}

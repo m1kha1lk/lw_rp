@@ -1,0 +1,6 @@
+{
+  "parent": "new_format:item/lw/custom_items/protest/poster_source",
+  "textures": {
+    "0": "new_format:item/lw/custom_items/protest/anti_sparki"
+  }
+}

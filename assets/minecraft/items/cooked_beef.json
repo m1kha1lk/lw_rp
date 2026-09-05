@@ -1,0 +1,88 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Buffalo Steak",
+          "Стейк из буйвола"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/cooked_beef/buffalo_steak"
+        }
+      },
+      {
+        "when": [
+          "Burger",
+          "Бургер"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/cooked_beef/burger"
+        }
+      },
+      {
+        "when": [
+          "Buzuluks Sausage",
+          "Бузулукский колбас"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/cooked_beef/buzuluks_sausage"
+        }
+      },
+      {
+        "when": [
+          "Ender Steak",
+          "Драконий стейк"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/cooked_beef/ender_steak"
+        }
+      },
+      {
+        "when": "Шашлык",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/barbecue_stick/barbecue_stick"
+        }
+      },
+      {
+        "when": "котлета из говядины",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/beef/beef_patty/beef_patty"
+        }
+      },
+      {
+        "when": "Жареные бараньи рёбра",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/mutton/cooked_mutton_chops/cooked_mutton_chops"
+        }
+      },
+      {
+        "when": "Жареная баранья отбивная",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/mutton/roasted_mutton_chops/roasted_mutton_chops"
+        }
+      },
+      {
+        "when": "Жареный окорок",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/other/food3d/platepig"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_beef"
+    }
+  }
+}

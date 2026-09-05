@@ -1,0 +1,6 @@
+{
+  "parent": "new_format:item/bvb/armor/cleaver",
+  "textures": {
+    "layer0": "new_format:item/bvb/armor/ruby/ruby_cleaver"
+  }
+}

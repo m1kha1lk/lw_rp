@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "new_format:item/armorsets/spectral/spectral_crossbow_standby"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "new_format:item/lw/custom_items/playing_cards/paper/card_source",
+  "textures": {
+    "layer0": "new_format:item/lw/custom_items/playing_cards/paper/ha"
+  }
+}

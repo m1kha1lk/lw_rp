@@ -1,0 +1,440 @@
+{
+	"type": "rpt:component",
+	"component": "custom_name",
+	"cases": [
+		{
+			"when": "Даэдрическая броня",
+			"child":{
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/skyrim_armor.png"
+			}
+		},
+		{
+			"when": "Акваланг",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/akvalang.png"
+			}
+		},
+		{
+			"when": "Венок Цезаря",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/caesar_helmet.png"
+			}
+		},
+		{
+			"when": "Алмазная броня Мечтателя",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/dream_netherite.png"
+			}
+		},
+		{
+			"when": "Экзоскелет",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/exoskeleton.png"
+			}
+		},
+		{
+			"when": "Минимальная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/min_netherite.png"
+			}
+		},
+		{
+			"when": "Бронежилет Миротворца",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/miro_chest.png"
+			}
+		},
+		{
+			"when": "Броня из Черепашьего сплава",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/turtleshell_diamond.png"
+			}
+		},
+		{
+			"when": "Монокль",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/monocle.png"
+			}
+		},
+		{
+			"when": "Берцы",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/booty_boots.png"
+			}
+		},
+		{
+			"when": "Чокер",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/chest_choker.png"
+			}
+		},
+		{
+			"when": "Кристал на спине",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/crystal_backpack.png"
+			}
+		},
+		{
+			"when": "Нановолоконная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/nano_armor_1.png"
+			}
+		},
+		{
+			"when": "Броня Миротворца",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/fbi_layer_1.png"
+			}
+		},
+		{
+			"when": "Кандалы",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/kandal.png"
+			}
+		},
+		{
+			"when": "Толстовка",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/orange_sweater.png"
+			}
+		},
+		{
+			"when": "Ветровка",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/scout_jacket.png"
+			}
+		},
+		{
+			"when": "Зимняя куртка",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/red_jacket.png"
+			}
+		},
+		{
+			"when": "Одежда зимнего тепла",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/winter_heat.png"
+			}
+		},
+		{
+			"when": "Черепаший панцырь",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/turtle_chest.png"
+			}
+		},
+		{
+			"when": "Кольцо",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/ring_armor.png"
+			}
+		},
+		{
+			"when": "Серьги",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/ring_armor.png"
+			}
+		},
+		{
+			"when": "Крылья Гермеса",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/ring_armor.png"
+			}
+		},
+		{
+			"when": "Стальные трубки",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/steel_pipes.png"
+			}
+		},
+		{
+			"when": "Бюджетная обувка",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/steel_pipes.png"
+			}
+		},
+		{
+			"when": "Часть брони Бастиона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/bastion2.png"
+			}
+		},
+		{
+			"when": "Кольчуга тёмного война",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/dark_chest.png"
+			}
+		},
+		{
+			"when": "Скафандр",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/gagarin_chest.png"
+			}
+		},
+		{
+			"when": "Броня война самурая",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/bushidou.png"
+			}
+		},
+		{
+			"when": "Наплечники Шогана",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/shogun.png"
+			}
+		},
+		{
+			"when": "Броня самурая Эда",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/eddie_armor.png"
+			}
+		},
+		{
+			"when": "Инженерная экипировка",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/engineer_layer_1.png"
+			}
+		},
+		{
+			"when": "Инженерная каска",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/engineer_cap_armor.png"
+			}
+		},
+		{
+			"when": "Броня военного медика",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/medic_layer_1.png"
+			}
+		},
+		{
+			"when": "Ангельская броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/angel_layer_1.png"
+			}
+		},
+		{
+			"when": "Кобальтовая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/cobalt_layer_1.png"
+			}
+		},
+		{
+			"when": "Морозная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/snow_layer_1.png"
+			}
+		},
+		{
+			"when": "Аметистовая корона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/amethystcrown.png"
+			}
+		},
+		{
+			"when": "Рубиновая корона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/crownruby.png"
+			}
+		},
+		{
+			"when": "Изумрудная корона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/emeraldcrown.png"
+			}
+		},
+		{
+			"when": "Королевская корона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/kingcrown.png"
+			}
+		},
+		{
+			"when": "Корона Техно",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/technocrown.png"
+			}
+		},
+		{
+			"when": "Золотая корона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/goldencrown.png"
+			}
+		},
+		{
+			"when": "Алмазная корона",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/diamondcrown.png"
+			}
+		},
+		{
+			"when": "Кактусовая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/cactus_layer_1.png"
+			}
+		},
+		{
+			"when": "Броня друида",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/druid_layer_1.png"
+			}
+		},
+		{
+			"when": "Изумрудная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/emerald_layer_1.png"
+			}
+		},
+		{
+			"when": "Эндер броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/ender_layer_1.png"
+			}
+		},
+		{
+			"when": "Пчелиная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/honey_layer_1.png"
+			}
+		},
+		{
+			"when": "Шалкеровая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/shulker_layer_1.png"
+			}
+		},
+		{
+			"when": "Стеклянная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/glass_layer_1.png"
+			}
+		},
+		{
+			"when": "Кримзоновая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/crimson_layer_1.png"
+			}
+		},
+		{
+			"when": "Огненная броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/fire_layer_1.png"
+			}
+		},
+		{
+			"when": "Кианитовая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/kyanite_layer_1.png"
+			}
+		},
+		{
+			"when": "Королевская кианитовая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/royal_kyanite_layer_1.png"
+			}
+		},
+		{
+			"when": "Броня новы",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/nova_layer_1.png"
+			}
+		},
+		{
+			"when": "Рубиновая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/ruby_layer_1.png"
+			}
+		},
+		{
+			"when": "Броня подводника",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/scuba_layer_1.png"
+			}
+		},
+		{
+			"when": "Скалковая броня",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/sculk_layer_1.png"
+			}
+		},
+		{
+			"when": "Броня машрува",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/shroom_layer_1.png"
+			}
+		},
+		{
+			"when": "Броня огня душ",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/soulfire_layer_1.png"
+			}
+		},
+		{
+			"when": "Космический скафандр",
+			"child": {
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/space_layer_1.png"
+			}
+		}
+	]
+}

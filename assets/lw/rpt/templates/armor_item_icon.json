@@ -1,0 +1,13 @@
+{
+    "model": {
+        "type": "rpt:variable",
+        "variable": "armor_helmet"
+    }, 
+    "rpt": {
+        "variables" : {
+            "models": {
+                "armor_helmet": "item/diamond_helmet"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "rpt:swapper",
+	"model": {
+		"type": "rpt:component",
+		"component": "custom_name",
+		"cases": [
+			{
+				"when": "Sweater",
+				"child": {
+					"type":"minecraft:model",
+					"model": "lw:rpt/swappers/sweater.png"
+				}
+			}
+		],
+	"fallback": {
+		"type": "rpt:empty"
+		}
+	}
+}

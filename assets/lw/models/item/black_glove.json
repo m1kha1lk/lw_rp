@@ -1,0 +1,94 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "lw:item/glove",
+		"particle": "lw:item/glove"
+	},
+	"elements": [
+		{
+			"name": "Right Arm",
+			"from": [12, 12, 6],
+			"to": [16, 17, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 5], "texture": "#2"},
+				"east": {"uv": [4, 0, 8, 5], "texture": "#2"},
+				"south": {"uv": [0, 5, 4, 10], "texture": "#2"},
+				"west": {"uv": [4, 5, 8, 10], "texture": "#2"},
+				"up": {"uv": [12, 14, 8, 10], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [16, 0, 12, 4], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Right Arm Layer",
+			"from": [11.75, 11.75, 5.75],
+			"to": [16.25, 17, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 12, 5], "texture": "#2"},
+				"east": {"uv": [8, 5, 12, 10], "texture": "#2"},
+				"south": {"uv": [0, 10, 4, 15], "texture": "#2"},
+				"west": {"uv": [4, 10, 8, 15], "texture": "#2"},
+				"up": {"uv": [16, 8, 12, 4], "texture": "#2"},
+				"down": {"uv": [16, 8, 12, 12], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-7.25, -2, -5.5],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-7.25, -2, -5.5],
+			"scale": [-1.2, 1.2, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6.5, 1, -5.5],
+			"scale": [1.15, 1.15, 1.15]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6.5, 1, -5.5],
+			"scale": [-1.15, 1.15, 1.15]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [-7.75, -1, -8.25],
+			"scale": [1.15, 1.15, 1.15]
+		},
+		"gui": {
+			"rotation": [119.25, 0, 128.75],
+			"translation": [17.75, 0.5, -8.75],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"rotation": [-180, 0, 0],
+			"translation": [-6.5, 17, -0.5],
+			"scale": [1.15, 1.15, 1.15]
+		},
+		"fixed": {
+			"rotation": [90, 0, 90],
+			"translation": [9, 0.5, -11.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 90],
+			"translation": [12.75, 0.5, -11.5],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "glove",
+			"origin": [13, 22, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

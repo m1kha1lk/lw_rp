@@ -1,0 +1,57 @@
+{
+    "model":
+    {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases":
+        [
+            {
+                "when": ["Tesko", "Теско"],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "lw:item/car_key",
+                    "tints":
+                    [
+                        {
+                        "type": "minecraft:constant",
+                        "value": 14774793
+                        }
+                    ]
+                }
+            },
+            {
+                "when": ["Satsuma", "Сатсума"],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "lw:item/car_key",
+                    "tints":
+                    [
+                        {
+                        "type": "minecraft:constant",
+                        "value": 14774793
+                        }
+                    ]
+                }
+            },
+            {
+                "when": ["Zhiguli","Жигули"],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "lw:item/car_key",
+                    "tints":
+                    [
+                        {
+                        "type": "minecraft:constant",
+                        "value": 14774793
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/acacia_boat"
+        }
+    }
+}

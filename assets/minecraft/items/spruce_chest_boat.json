@@ -1,0 +1,43 @@
+{
+    "model":
+    {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases":
+        [
+            {
+                "when": ["Tesko", "Теско"],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "lw:item/car_key",
+                    "tints":
+                    [
+                        {
+                        "type": "minecraft:constant",
+                        "value": 9301781
+                        }
+                    ]
+                }
+            },
+            {
+                "when": ["Hayosiko", "Хайосико"],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "lw:item/car_key",
+                    "tints":
+                    [
+                        {
+                        "type": "minecraft:constant",
+                        "value": 9301781
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spruce_chest_boat"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "new_format:item/lw/totems/ma6/ma6hroow"
+  }
+}

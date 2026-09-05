@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cod"
+    },
+    "cases": [
+      {
+        "when": "Роллы",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/cod/cod_roll/cod_roll"
+        }
+      },
+      {
+        "when": "Кусочек трески",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/cod/cod_slice/cod_slice"
+        }
+      }
+    ]
+  }
+}

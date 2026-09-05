@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Melon Popsicle",
+          "Арбузный фруктовый лёд"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/food/melon_slice/melon_popsicle"
+        }
+      },
+      {
+        "when": "Арбузное мороженое",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/melon/melon_popsicle/melon_popsicle"
+        }
+      },
+      {
+        "when": "Кусочек тыквы",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/pumpkin/pumpkin_slice/pumpkin_slice"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/melon_slice"
+    }
+  }
+}

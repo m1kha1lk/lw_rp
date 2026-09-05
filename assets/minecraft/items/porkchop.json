@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/porkchop"
+    },
+    "cases": [
+      {
+        "when": "Бекон",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/bacon/bacon/bacon"
+        }
+      },
+      {
+        "when": "Хамон",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/ham/ham/ham"
+        }
+      }
+    ]
+  }
+}

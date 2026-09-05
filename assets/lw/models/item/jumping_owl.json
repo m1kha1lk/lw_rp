@@ -1,0 +1,71 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "lw:item/jumoping_owl_256",
+		"particle": "lw:item/jumoping_owl_256"
+	},
+	"elements": [
+		{
+			"name": "jumoping_owl_256_0",
+			"from": [0, 0, 0],
+			"to": [8, 8, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 0.5]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [15.9375, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.0625, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.0625], "texture": "#0"},
+				"down": {"uv": [0, 15.9375, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, 4.75],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, 4.75],
+			"scale": [-0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 4.5, 4.75],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 4.5, 4.75],
+			"scale": [-0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"translation": [4, 4.5, 7.75]
+		},
+		"gui": {
+			"translation": [8, 8, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [2.25, 11, 4.75],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"fixed": {
+			"translation": [13.5, 14.75, 26.5],
+			"scale": [3.5, 3.5, 3.5]
+		},
+		"on_shelf": {
+			"translation": [4.25, 0, 4.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "jumoping_owl_256",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
