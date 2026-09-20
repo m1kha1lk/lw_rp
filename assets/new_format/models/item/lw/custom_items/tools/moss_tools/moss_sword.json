@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "new_format:item/lw/custom_items/tools/moss_tools/moss_sword"
+  }
+}

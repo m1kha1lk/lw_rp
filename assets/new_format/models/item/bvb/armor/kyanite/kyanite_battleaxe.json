@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "new_format:item/bvb/armor/kyanite/kyanite_battleaxe"
+  }
+}

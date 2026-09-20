@@ -1,0 +1,84 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/brown_shulker_box",
+      "model": {
+        "type": "minecraft:shulker_box",
+        "texture": "minecraft:shulker_brown"
+      }
+    },
+    "cases": [
+      {
+        "when": "Наплечная сумка",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/cloth/handbag/handbag_brw"
+        }
+      },
+      {
+        "when": "Hiking Backpack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/cloth/hiking_backpack/hiking_backpack_brw"
+        }
+      },
+      {
+        "when": "Рюкзак Протон-1",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "new_format:item/lw/events/halloween/2024/ghostbusters/protonbackoff"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "new_format:item/lw/events/halloween/2024/ghostbusters/protonback"
+          }
+        }
+      },
+      {
+        "when": "Duffle bag",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/duffle_bag/duffle_bag"
+        }
+      },
+      {
+        "when": "Коробка с пиццей из ресторана курги",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "new_format:item/lw/custom_items/new_food/kurga_pizza/pizza_box/pizza_box_off"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "new_format:item/lw/custom_items/new_food/kurga_pizza/pizza_box/pizza_box"
+          }
+        }
+      }
+    ]
+  }
+}

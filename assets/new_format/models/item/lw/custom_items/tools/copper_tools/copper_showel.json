@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "new_format:item/lw/custom_items/tools/copper_tools/copper_showel"
+  }
+}

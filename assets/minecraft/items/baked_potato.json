@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/baked_potato"
+    },
+    "cases": [
+      {
+        "when": "Яичница",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/egg/fried_egg/fried_egg"
+        }
+      },
+      {
+        "when": "Рататуй",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/ratatouille/ratatouille"
+        }
+      },
+      {
+        "when": "Приготовленый рис",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/rice/cooked_rice/cooked_rice"
+        }
+      },
+      {
+        "when": "Жаренный рис",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/farmers_delight/rice/fried_rice/fried_rice"
+        }
+      },
+      {
+        "when": "Кусочек грибной пиццы",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/new_food/kurga_pizza/grib_pizza/grib_pizza"
+        }
+      },
+      {
+        "when": "Кусочек скалковой пиццы",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/new_food/kurga_pizza/skulk_pizza/skulk_pizza"
+        }
+      }
+    ]
+  }
+}

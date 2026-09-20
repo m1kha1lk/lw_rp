@@ -1,0 +1,6 @@
+{
+  "parent": "new_format:item/hollidayitems/christmas/ornaments/./cyan_ornament2_source",
+  "textures": {
+    "layer0": "new_format:item/hollidayitems/christmas/ornaments/cyan"
+  }
+}

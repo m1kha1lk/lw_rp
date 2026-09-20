@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lw:item/min_leggings_diamond_icon"
+  }
+}

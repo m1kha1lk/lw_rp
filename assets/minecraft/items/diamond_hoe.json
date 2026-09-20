@@ -1,0 +1,187 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_hoe"
+    },
+    "cases": [
+      {
+        "when": [
+          "Pitchfork",
+          "Вилы"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/tools/hoe/pitchfork"
+        }
+      },
+      {
+        "when": [
+          "Rake",
+          "Грабли"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/tools/hoe/rake"
+        }
+      },
+      {
+        "when": "Ангельская Мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/angel/angel_hoe"
+        }
+      },
+      {
+        "when": "Кобальтовая мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/cobalt/cobalt_hoe"
+        }
+      },
+      {
+        "when": "Конфетная мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/elf/diamond_hoe"
+        }
+      },
+      {
+        "when": "Огненная Мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/fire/fire_hoe"
+        }
+      },
+      {
+        "when": "Кианитовая мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/kyanite/kyanite_hoe"
+        }
+      },
+      {
+        "when": "Мотыга Новы",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/nova/nova_hoe"
+        }
+      },
+      {
+        "when": "Королевская Кианитовая Мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/royal_kyanite/royal_kyanite_hoe"
+        }
+      },
+      {
+        "when": "Рубиновая мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/ruby/ruby_hoe"
+        }
+      },
+      {
+        "when": "Мотыга Подводника",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/scuba/scuba_hoe"
+        }
+      },
+      {
+        "when": "Скалковая Мотыга",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/sculk/sculk_hoe"
+        }
+      },
+      {
+        "when": "Мотыга машрува",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/shroom/shroom_hoe"
+        }
+      },
+      {
+        "when": "Мотыга Огня душ",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/bvb/armor/soulfire/soulfire_hoe"
+        }
+      },
+      {
+        "when": "Moss hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/tools/moss_tools/moss_hoe"
+        }
+      },
+      {
+        "when": "Saphire hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/tools/saphire_tools/saphire_hoe"
+        }
+      },
+      {
+        "when": "Cactus hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/cactus/cactus_hoe"
+        }
+      },
+      {
+        "when": "emerald hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/emerald/emerald_hoe"
+        }
+      },
+      {
+        "when": "Energy hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/energy/energy_hoe"
+        }
+      },
+      {
+        "when": "Glass hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/glass/diamond_hoe"
+        }
+      },
+      {
+        "when": "Honey hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/honey/honey_hoe"
+        }
+      },
+      {
+        "when": "snow hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/snow/snow_hoe"
+        }
+      },
+      {
+        "when": "Spectral hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/spectral/spectral_hoe"
+        }
+      },
+      {
+        "when": "cursed hoe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/armorsets/cursed/diamond/diamond_hoe"
+        }
+      }
+    ]
+  }
+}

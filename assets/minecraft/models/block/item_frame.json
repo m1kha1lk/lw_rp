@@ -1,0 +1,39 @@
+{
+  "elements": [
+    {
+      "from": [
+        6,
+        6,
+        15.98
+      ],
+      "to": [
+        10,
+        10,
+        15.98
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "texture": "#back"
+        },
+        "south": {
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "texture": "#back"
+        }
+      }
+    }
+  ],
+  "textures": {
+    "back": "block/item_frame"
+  }
+}

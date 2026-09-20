@@ -1,0 +1,67 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Железное перо"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "lw:item/pens/iron_feather"
+        }
+      },
+      {
+        "when": [
+          "Ручка"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "lw:item/pens/pen"
+        }
+      },
+      {
+        "when": "Карандаш",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lw:item/pens/pencil"
+        }
+      },
+      {
+        "when": [
+          "Зелёный рождественский носок",
+          "Green Christmas sock"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/xmas/socks/green_sock"
+        }
+      },
+      {
+        "when": [
+          "Red christmas sock",
+          "Красный рождественский носок",
+          "Красный Рождественский носок",
+          "Red Christmas sock"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/xmas/socks/red_sock"
+        }
+      },
+      {
+        "when": "Жёлтый Рождественский носок",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/xmas/socks/yellow_sock"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/feather"
+    }
+  }
+}

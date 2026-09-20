@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/white_wool"
+    },
+    "cases": [
+      {
+        "when": "Плюшевая dapte",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/sponsor_plushes/dapte"
+        }
+      },
+      {
+        "when": "Плюшевый Migoti",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/sponsor_plushes/migoti"
+        }
+      },
+      {
+        "when": "Плюшевый m1kha1l",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/sponsor_plushes/mikhail"
+        }
+      },
+      {
+        "when": "Плюшевый PriLair",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/sponsor_plushes/prilair"
+        }
+      },
+      {
+        "when": "Плюшевый sparki_228_",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/sponsor_plushes/sparki"
+        }
+      },
+      {
+        "when": "Плюшевый AlignedRacer214",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_format:item/lw/custom_items/sponsor_plushes/timoti"
+        }
+      }
+    ]
+  }
+}

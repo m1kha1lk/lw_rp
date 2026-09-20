@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "new_format:item/farmers_delight/roll/kelp_roll_slice/kelp_roll_slice"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "new_format:item/farmers_delight/mutton/pasta_with_mutton_chop/pasta_with_mutton_chop"
+  }
+}

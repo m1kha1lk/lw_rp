@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow_pulling_0",
+  "textures": {
+    "layer0": "new_format:item/armorsets/elven/elven_crossbow_pulling_0"
+  }
+}

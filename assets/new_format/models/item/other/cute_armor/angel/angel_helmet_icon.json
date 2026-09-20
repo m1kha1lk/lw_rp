@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "new_format:item/other/cute_armor/angel/angel_helmet_icon"
+  }
+}

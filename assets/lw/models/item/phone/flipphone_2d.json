@@ -1,0 +1,9 @@
+
+{
+    "parent": "minecraft:item/generated",
+    "textures":
+    {
+        "layer1": "lw:item/phone/flipphone",
+        "layer0": "lw:item/phone/flipphone_overlay"
+    }
+}
