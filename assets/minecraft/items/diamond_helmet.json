@@ -290,6 +290,13 @@
           "type": "minecraft:model",
           "model": "lw:item/clothes/space_helmet"
         }
+      },
+      {
+        "when": "Шлем Мандалорца",
+        "model": {
+          "type": "minecraft:model",
+          "model": "starwarslw:item/helmet_madolorca_2d"
+        }
       }
 	],
     "fallback": {

@@ -1,0 +1,23 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Кредит повстанцев"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "starwarslw:item/credit_chip"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_nugget"
+    }
+  }
+}

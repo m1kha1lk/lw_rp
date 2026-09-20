@@ -3165,6 +3165,15 @@
           "type": "minecraft:model",
           "model": "lw:item/hats/pilot_helmet"
         }
+      },
+      {
+        "when": [
+          "Шлем пилота X-Wing"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "starwarslw:item/x-wing_pilot_helmet"
+        }
       }
     ],
     "fallback": {

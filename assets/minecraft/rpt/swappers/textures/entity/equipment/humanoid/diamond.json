@@ -442,6 +442,13 @@
 				"type":"rpt:apply",
 				"value": "lw:rpt/swappers/clothes/space_layer_1.png"
 			}
+		},
+		{
+			"when": "Шлем Мандалорца",
+			"child": {
+				"type":"rpt:apply",
+				"value": "starwarslw:rpt/swappers/manda_helm.png"
+			}
 		}
 	]
 }

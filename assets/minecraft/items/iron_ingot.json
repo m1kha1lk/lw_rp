@@ -3644,6 +3644,24 @@
           "type": "minecraft:model",
           "model": "lw:item/misha_bust"
         }
+      },
+      {
+        "when": [
+          "Флешка с картой"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "starwarslw:item/fleshka_s_kartoi"
+        }
+      },
+	  {
+        "when": [
+          "Чип наводки"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "starwarslw:item/chip_navodki"
+        }
       }
     ],
     "fallback": {
