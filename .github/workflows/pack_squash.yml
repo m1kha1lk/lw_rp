@@ -18,4 +18,4 @@ jobs:
           # the options file format are made, but will require you to manually update
           # the PackSquash version your workflows use when a release occurs
           packsquash_version: v0.4.1
-          options: squash_0.4.1_with_reuse_git.toml
+          options: .github/squash_0.4.1_with_reuse_git.toml
