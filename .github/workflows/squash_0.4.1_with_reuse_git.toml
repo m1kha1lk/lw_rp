@@ -1,0 +1,27 @@
+# pack_directory = 'C:\Users\hukto\AppData\Roaming\.minecraft\versions\fabric_1.21.5_2\resourcepacks\merged_test_1'
+pack_directory='.'
+output_file_path='tmp\squashed_output.zip'
+recompress_compressed_files = true
+zip_compression_iterations=10
+automatic_minecraft_quirks_detection = true
+automatic_asset_types_mask_detection = true
+allow_mods = ['OptiFine', 'Minecraft Transit Railway 3']
+skip_pack_icon = false
+zip_spec_conformance_level = 'pedantic'
+size_increasing_zip_obfuscation = false
+never_store_squash_times = false
+threads = 4
+['**\*?.json']
+minify_json = false
+delete_bloat_keys = true
+always_allow_json_comments = true
+['**\*?.png']
+image_data_compression_iterations = 10
+maximum_width_and_height = 4096
+skip_alpha_optimizations = true
+['**\*?.properties']
+minify_properties=false
+['**\*?.jem']
+minify_json = false
+delete_bloat_keys = true
+always_allow_json_comments = true

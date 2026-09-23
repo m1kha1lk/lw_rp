@@ -1,5 +1,8 @@
 name: Optimize resource pack
-on: [push]
+on:
+  push:
+    tags:
+      - "squash*"
 jobs:
   packsquash:
     name: Optimize resource pack
@@ -19,3 +22,8 @@ jobs:
           # the PackSquash version your workflows use when a release occurs
           packsquash_version: v0.4.1
           options: .github/squash_0.4.1_with_reuse_git.toml
+      - name: Create realease
+        uses: softprops/action-gh-release@v2
+        with:
+          files: tmp\squashed_output.zip
+          

@@ -1,9 +1,6 @@
 name: Build Resource Pack
 
-on:
-  push:
-    tags:
-      - "v*"
+on: [push]
 
 permissions:
   contents: write
