@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "new_format:item/armorsets/royal_kyanite/royal_kyanite_hoe"
   }
