@@ -1,36 +1,40 @@
 name: Optimize resource pack
-on: [push]
-  # push:
-  #   tags:
-  #     - "squash*"
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   packsquash:
     name: Optimize resource pack
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # A non-shallow repository clone is required
+          fetch-depth: 0
+
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
-          # When changing the options passed to PackSquash, it may be a good idea to lock
-          # your workflow to a specific PackSquash version instead of "latest". This will
-          # prevent sudden failures when releases that introduce incompatible changes to
-          # the options file format are made, but will require you to manually update
-          # the PackSquash version your workflows use when a release occurs
           packsquash_version: v0.4.1
           options: .github/squash_0.4.1_with_reuse_git.toml
-      - name: Create realease
+
+      - name: Create release
         env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create 'v${{ github.run_number }}.${{ github.run_attempt }}'\
-          --target '${{ github.sha }}' /tmp/squashed_output.zip
-        # uses: softprops/action-gh-release@v2
-        # with:
-        #   files: tmp\squashed_output.zip
-          
+          VERSION="v${{ github.run_number }}"
+
+          gh release create "$VERSION" \
+            /tmp/squashed_output.zip \
+            --target "${{ github.sha }}" \
+            --title "$VERSION" \
+            --generate-notes
