@@ -29,7 +29,7 @@ jobs:
             GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create 'v${{ github.run_number }}.${{ github.run_attempt }}'\
-          --target '${{ github.sha }}' /tmp/squashed_output.zip\
+          --target '${{ github.sha }}' /tmp/squashed_output.zip
         # uses: softprops/action-gh-release@v2
         # with:
         #   files: tmp\squashed_output.zip
