@@ -11,18 +11,18 @@ zip_spec_conformance_level = 'pedantic'
 size_increasing_zip_obfuscation = false
 never_store_squash_times = false
 threads = 4
-['**\*?.json']
+['**/*?.json']
 minify_json = false
 delete_bloat_keys = true
 always_allow_json_comments = true
-['**\*?.png']
+['**/*?.png']
 image_data_compression_iterations = 10
 maximum_width_and_height = 4096
 skip_alpha_optimizations = true
-['**\*?.properties']
+['**/*?.properties']
 # minify_properties=false
 force_include=true
-['**\*?.jem']
+['**/*?.jem']
 minify_json = false
 delete_bloat_keys = true
 always_allow_json_comments = true
