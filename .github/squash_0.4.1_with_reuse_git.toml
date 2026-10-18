@@ -20,7 +20,7 @@ image_data_compression_iterations = 10
 maximum_width_and_height = 4096
 skip_alpha_optimizations = true
 ['**\*?.properties']
-minify_properties=false
+# minify_properties=false
 force_include=true
 ['**\*?.jem']
 minify_json = false
