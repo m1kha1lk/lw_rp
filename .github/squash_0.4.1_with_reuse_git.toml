@@ -21,7 +21,7 @@ maximum_width_and_height = 4096
 skip_alpha_optimizations = true
 ['**/*?.properties']
 minify_properties=false
-# force_include=true
+force_include=true
 # ['**/*?.jem']
 # minify_json = false
 # delete_bloat_keys = true
