@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Clone repository
-      #   uses: actions/checkout@v4
-      #   with:
-      #     fetch-depth: 0
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       # - name: Run PackSquash
       #   uses: ComunidadAylas/PackSquash-action@v4
