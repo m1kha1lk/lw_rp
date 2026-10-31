@@ -3,6 +3,13 @@
 	"component": "custom_name",
 	"cases": [
 		{
+			"when": "Кандалы Шахтёра",
+			"child":{
+				"type":"rpt:apply",
+				"value": "lw:rpt/swappers/clothes/miner_chains.png"
+			}
+		},
+    {
 			"when": "Даэдрическая броня",
 			"child":{
 				"type":"rpt:apply",
