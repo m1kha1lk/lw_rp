@@ -1,0 +1,32 @@
+{"model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "lw:item/phone/smartphone",
+                "tints": [
+                  {
+                    "type": "minecraft:dye",
+                    "default": -6265536
+                  }
+                ]
+              }
+      }],
+        "fallback":{
+          "type": "minecraft:model",
+                "model": "lw:item/phone/smartphone_2d",
+                "tints": [
+                  {
+                    "type": "minecraft:dye",
+                    "default": -6265536
+                  }
+                ]
+        }}}
